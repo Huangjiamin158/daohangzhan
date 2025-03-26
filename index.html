@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开发者工具导航站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>开发者工具导航站</h1>
+            <p class="subtitle">收集了实用的开发、SEO、需求调研和独立开发相关资源</p>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="搜索相关资源...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 需求收集和关键词调研 -->
+        <section id="research" class="tool-section">
+            <h2>需求收集和关键词调研</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>关键词工具</h3>
+                    <ul>
+                        <li><a href="https://trends.google.com" target="_blank">Google Trends</a> - 热门趋势分析</li>
+                        <li><a href="https://ads.google.com/home/tools/keyword-planner/" target="_blank">Google Keyword Planner</a> - 关键词规划</li>
+                        <li><a href="https://www.semrush.com" target="_blank">SEMrush</a> - 综合SEO工具</li>
+                        <li><a href="https://answerthepublic.com" target="_blank">Answer The Public</a> - 用户问题收集</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 上线必备工具 -->
+        <section id="essential" class="tool-section">
+            <h2>上线必备工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>域名注册</h3>
+                    <ul>
+                        <li><a href="https://www.namecheap.com" target="_blank">Namecheap</a> - 域名注册服务</li>
+                        <li><a href="https://domains.google" target="_blank">Google Domains</a> - 谷歌域名服务</li>
+                        <li><a href="https://www.godaddy.com" target="_blank">GoDaddy</a> - 域名和主机服务</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>代码和网站托管</h3>
+                    <ul>
+                        <li><a href="https://github.com" target="_blank">GitHub</a> - 代码托管平台</li>
+                        <li><a href="https://vercel.com" target="_blank">Vercel</a> - 前端部署平台</li>
+                        <li><a href="https://www.netlify.com" target="_blank">Netlify</a> - 静态网站托管</li>
+                        <li><a href="https://www.heroku.com" target="_blank">Heroku</a> - 应用托管平台</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>数据分析</h3>
+                    <ul>
+                        <li><a href="https://analytics.google.com" target="_blank">Google Analytics</a> - 网站分析</li>
+                        <li><a href="https://search.google.com/search-console" target="_blank">Search Console</a> - 搜索分析</li>
+                        <li><a href="https://www.hotjar.com" target="_blank">Hotjar</a> - 用户行为分析</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 竞品调研工具 -->
+        <section id="competitor" class="tool-section">
+            <h2>竞品调研工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>网站流量和关键词分析</h3>
+                    <ul>
+                        <li><a href="https://www.similarweb.com" target="_blank">SimilarWeb</a> - 网站流量分析</li>
+                        <li><a href="https://ahrefs.com" target="_blank">Ahrefs</a> - SEO分析工具</li>
+                        <li><a href="https://www.spyfu.com" target="_blank">SpyFu</a> - 竞争对手分析</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 网站模板资源 -->
+        <section id="templates" class="tool-section">
+            <h2>网站模板资源</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>博客与项目模板</h3>
+                    <ul>
+                        <li><a href="https://themeforest.net" target="_blank">ThemeForest</a> - 主题市场</li>
+                        <li><a href="https://www.wix.com" target="_blank">Wix</a> - 网站建设平台</li>
+                        <li><a href="https://wordpress.org/themes" target="_blank">WordPress Themes</a> - WordPress主题</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>SaaS与应用模板</h3>
+                    <ul>
+                        <li><a href="https://cruip.com" target="_blank">Cruip</a> - SaaS网站模板</li>
+                        <li><a href="https://themes.getbootstrap.com" target="_blank">Bootstrap Themes</a> - Bootstrap主题</li>
+                        <li><a href="https://themesberg.com" target="_blank">Themesberg</a> - 管理后台模板</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 支付工具 -->
+        <section id="payment" class="tool-section">
+            <h2>支付工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>支付处理</h3>
+                    <ul>
+                        <li><a href="https://stripe.com" target="_blank">Stripe</a> - 在线支付平台</li>
+                        <li><a href="https://www.paypal.com" target="_blank">PayPal</a> - 支付服务</li>
+                        <li><a href="https://paddle.com" target="_blank">Paddle</a> - 软件销售平台</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>订阅管理</h3>
+                    <ul>
+                        <li><a href="h>
+                    </ul>ttps://www.chargebee.com" target="_blank">Chargebee</a> - 订阅管理平台</li>
+                        <li><a href="https://www.recurly.com" target="_blank">Recurly</a> - 订阅计费系统</li
+                </div>
+            </div>
+        </section>
+
+        <!-- 营销工具 -->
+        <section id="marketing" class="tool-section">
+            <h2>营销工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>邮件营销</h3>
+                    <ul>
+                        <li><a href="https://mailchimp.com" target="_blank">Mailchimp</a> - 邮件营销平台</li>
+                        <li><a href="https://convertkit.com" target="_blank">ConvertKit</a> - 创作者邮件工具</li>
+                        <li><a href="https://www.sendinblue.com" target="_blank">Sendinblue</a> - 营销自动化</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>社交媒体</h3>
+                    <ul>
+                        <li><a href="https://buffer.com" target="_blank">Buffer</a> - 社交媒体管理</li>
+                        <li><a href="https://www.hootsuite.com" target="_blank">Hootsuite</a> - 社交媒体营销</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 开发者工具导航站 | <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
